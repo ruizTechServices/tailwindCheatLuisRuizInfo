@@ -1,3 +1,6 @@
+<script>
+
+</script>
 <p>
   1. When you need to override a global style to a specific element on the page.
 </p>
@@ -11,3 +14,4 @@
     regarding TaildwindCSS. So, here is my cheatsheet for TailwindCSS.
   </p>
 </div>
+

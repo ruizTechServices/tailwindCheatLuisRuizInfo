@@ -51,7 +51,7 @@
         <a href="/" class="text-sm font-semibold leading-6 text-gray-900"
           >home</a
         >
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+        <a href="/about" class="text-sm font-semibold leading-6 text-gray-900"
           >about</a
         >
         <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
@@ -61,11 +61,11 @@
           >TailwindCSS</a
         >
       </div>
-      <!-- <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <a href="/login" class="text-sm font-semibold leading-6 text-gray-900"
           >Log in <span aria-hidden="true">&rarr;</span></a
         >
-      </div> -->
+      </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
     {#if isMenuOpen}
@@ -115,7 +115,7 @@
                   >home</a
                 >
                 <a
-                  href="#"
+                  href="/about"
                   class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >about</a
                 >
@@ -132,7 +132,7 @@
               </div>
               <div class="py-6">
                 <a
-                  href="#"
+                  href="/login"
                   class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >Log in</a
                 >

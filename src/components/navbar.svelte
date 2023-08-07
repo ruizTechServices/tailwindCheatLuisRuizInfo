@@ -6,7 +6,7 @@
     }
   </script>
   
-  <div class="bg-gray-300">
+  <div class="bg-gray-300 w-full">
     <header class="inset-x-0 top-0 z-50">
       <!---->
       <nav
@@ -16,11 +16,12 @@
         <div class="flex lg:flex-1">
           <a href="https://luisruiz.info" class="-m-1.5 p-1.5">
             <span class="sr-only">ruizTechServices</span>
-            <img
+            <!-- <img
               class="h-8 w-auto"
               src="#"
               alt="a logo image"
-            />
+            /> -->
+            <i class="fa-solid fa-laptop"></i>
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -48,24 +49,24 @@
         </div>
         <!---->
         <div class="hidden lg:flex lg:gap-x-12">
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+          <a href="/" class="text-sm font-semibold leading-6 text-gray-900"
             >home</a
           >
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+          <a href="/about" class="text-sm font-semibold leading-6 text-gray-900"
             >about</a
           >
           <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
             >components</a
           >
-          <a href="../TailwindCSS" class="text-sm font-semibold leading-6 text-gray-900"
+          <a href="/TailwindCSS" class="text-sm font-semibold leading-6 text-gray-900"
             >TailwindCSS</a
           >
         </div>
-        <!-- <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a href="/login" class="text-sm font-semibold leading-6 text-gray-900"
             >Log in <span aria-hidden="true">&rarr;</span></a
           >
-        </div> -->
+        </div>
       </nav>
       <!-- Mobile menu, show/hide based on menu open state. -->
       {#if isMenuOpen}
@@ -110,12 +111,12 @@
               <div class="-my-6 divide-y divide-gray-500/10">
                 <div class="space-y-2 py-6">
                   <a
-                    href="#"
+                    href="/"
                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >home</a
                   >
                   <a
-                    href="#"
+                    href="/about"
                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >about</a
                   >
@@ -125,14 +126,14 @@
                     >components</a
                   >
                   <a
-                    href="../src/routes/TailwindCSS/+page.svelte"
+                    href="/TailwindCSS"
                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >TailwindCSS</a
                   >
                 </div>
                 <div class="py-6">
                   <a
-                    href="#"
+                    href="/login"
                     class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >Log in</a
                   >
